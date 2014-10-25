@@ -1,0 +1,7 @@
+﻿<#@ template language="C#" hostspecific="true" debug="true" #>
+
+<# /* System.Diagnostics.Debugger.Launch(); */ #>
+
+My new guid = <#= Guid.NewGuid() #>
+My template file is <#= Host.TemplateFile #>
+My parameter "SomeKey" is <#= Host.ResolveParameterValue( null, null, "SomeKey" ) #>

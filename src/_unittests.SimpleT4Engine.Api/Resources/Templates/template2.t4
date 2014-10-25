@@ -1,0 +1,13 @@
+﻿<#@ template language="C#" hostspecific="true" debug="true" #>
+
+<#@ assembly name="Xceed.Zip, Version=3.2.6410.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6" #>
+<#@ import namespace="System" #>
+<#@ output extension=".fileNameExtension" encoding="UTF-16" #>
+<#@ include file="MyInclude.t4" #>
+
+<# /* System.Diagnostics.Debugger.Break(); */ #>
+
+
+My new guid = <#= Guid.NewGuid() #>
+My template file is <#= Host.TemplateFile #>
+My parameter "SomeKey" is <#= Host.ResolveParameterValue( null, null, "SomeKey" ) #>

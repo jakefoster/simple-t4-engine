@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>simple-t4-engine</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/jakefoster/simple-t4-engine/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jakefoster/simple-t4-engine</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Updated to target .NET 4.5.2 and moved to Github from Codeplex.</releaseNotes>
+    <copyright>Copyright 2004-2014, Cleverbox Inc. - All rights reserved.</copyright>
+    <tags>templating t4 generator generation metaprogramming</tags>
+    <dependencies>
+        <dependency id="ncore-foundation" version="1.7.5" />
+    </dependencies>
+  </metadata>
+</package>
